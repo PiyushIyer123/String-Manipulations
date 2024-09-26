@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
+	checkstr := "Welcome to Group A's Week 4 Project!"
 	fmt.Println("Welcome to Group A's Week 4 Project!")
-	//fmt.Println(Reversedstr("Welcome to Group A's Week 4 Project!"))
-	fmt.Println(ReplaceWord("Group A", "A", "C"))
+	fmt.Println(Reversedstr(checkstr))
+	fmt.Println(Reversedstr("Welcome to Group A's Week 4 Project!"))
 }
