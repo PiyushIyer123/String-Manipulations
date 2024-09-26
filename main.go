@@ -20,5 +20,15 @@ func main() {
 	fmt.Println("Reversed String: ", Reversedstr(checkstr))
 	fmt.Println("Palindrome: ", Palindrome(checkstr))
 
+<<<<<<< HEAD
 	fmt.Println("Replacing the Characters from String:", ReplaceWord(checkstr, "t", "AA"))
+=======
+	fmt.Println("Replacing the Word from String:", ReplaceWord(checkstr, "t", "AA"))
+
+	// Convert to Uppercase - Nikhitha
+	input := "winp group a!"
+	output := Uppercase(input)
+	fmt.Println("Convert to Uppercase:", output)
+
+>>>>>>> f32d6ae63e0ee7e25c949f2f482e781dbe0c6fb5
 }
