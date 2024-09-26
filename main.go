@@ -20,4 +20,10 @@ func main() {
 	fmt.Println("Palindrome: ", Palindrome(checkstr))
 
 	fmt.Println("Replacing the Word from String:", ReplaceWord(checkstr, "t", "AA"))
+
+	// Convert to Uppercase - Nikhitha
+	input := "winp group a!"
+	output := Uppercase(input)
+	fmt.Println("Convert to Uppercase:", output)
+
 }
