@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	checkstr := "Welcome to Group A's Week 4 Project!"
 	fmt.Println("Welcome to Group A's Week 4 Project!")
+	fmt.Println(Reversedstr(checkstr))
 
 	// CONCATENATE STRINGS - By Ponni Sajeevan
 	str1 := "The course is WINP2000!\n"                                  //String 1
@@ -12,4 +15,5 @@ func main() {
 	str3 := "Ponni, Rose, Nikhitha, Dipanshu, Piyush, Swaroop, Abhishek" //String 3
 	concatoutput := str1 + str2 + str3                                   //Concat Strings and save it to the variable concatoutput
 	fmt.Println(concatoutput)                                            //Print the output
+
 }
