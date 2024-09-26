@@ -14,11 +14,11 @@ func main() {
 	str1 := "'The course is WINP2000!\n"                                  //String 1
 	str2 := "The contributors are: "                                      //String 2
 	str3 := "Ponni, Rose, Nikhitha, Dipanshu, Piyush, Swaroop, Abhishek'" //String 3
-	concatoutput := str1 + str2 + str3                                    //Concat Strings and save it to the variable concatoutput
-	fmt.Println(concatoutput)                                             //Print the output
+	fmt.Println(Concat(str1, str2, str3))                                 //Concat Strings and save it to the variable concatoutput
+	// fmt.Println(concatoutput)                                             //Print the output
 
-	fmt.Println("Reversed String: ", Reversedstr(checkstr))
-	fmt.Println("Palindrome: ", Palindrome(checkstr))
+	fmt.Println(Reversedstr(checkstr))
+	fmt.Println(Palindrome(checkstr))
 
-	fmt.Println("Replacing the Word from String:", ReplaceWord(checkstr, "t", "AA"))
+	fmt.Println(ReplaceWord(checkstr, "t", "AA"))
 }
