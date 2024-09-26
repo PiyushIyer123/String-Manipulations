@@ -30,4 +30,7 @@ func main() {
 	output := Uppercase(input)
 	fmt.Println("Convert to Uppercase:", output)
 
+	// Returns the length of the input string.
+	fmt.Println(StringLength(checkstr))
+
 }
