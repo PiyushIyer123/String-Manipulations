@@ -16,6 +16,11 @@ func main() {
 	concatoutput := str1 + str2 + str3                                   //Concat Strings and save it to the variable concatoutput
 	fmt.Println(concatoutput)                                            //Print the output
 
+	//CONVERT TO UPPERCASE - Nikhitha
+	input := "winp group a!"
+	output := Uppercase(input)
+	fmt.Println("Convert to Uppercase:", output)
+
 	fmt.Println("Reversed String: ", Reversedstr(checkstr)) //Reversedstr
 	fmt.Println("Palindrome: ", Palindrome(checkstr))       //Palindrome
 
