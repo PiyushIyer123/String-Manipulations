@@ -17,10 +17,10 @@ func main() {
 	concatoutput := str1 + str2 + str3                                    //Concat Strings and save it to the variable concatoutput
 	fmt.Println(concatoutput)                                             //Print the output
 
-	fmt.Println("Reversed String: ", Reversedstr(checkstr))
-	fmt.Println("Palindrome: ", Palindrome(checkstr))
-
-	fmt.Println("Replacing the Word from String:", ReplaceWord(checkstr, "t", "AA"))
+	fmt.Println(Reversedstr(checkstr))
+	fmt.Println(Palindrome(checkstr))
+	fmt.Println(ReplaceWord(checkstr, "t", "AA"))
+	fmt.Println(ReplaceWord(checkstr, "t", "AA"))
 
 	// Convert to Uppercase - Nikhitha
 	input := "winp group a!"
