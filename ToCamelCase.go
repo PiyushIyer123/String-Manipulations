@@ -2,7 +2,7 @@
 // Function Name: ToCamelCase
 // ---------------------------------------------------------------------------------------                                                                                                       */
 // Description: This function will create the input words in Camel Case format. For
-// example, the input text is "How are you", the output will be "howAreYou"
+// example, the input text is "How are you doing", the output will be "howAreYouDoing"
 // Author: Rose Sauri
 // ---------------------------------------------------------------------------------------
 

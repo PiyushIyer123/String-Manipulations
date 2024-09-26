@@ -16,10 +16,10 @@ func main() {
 	concatoutput := str1 + str2 + str3                                   //Concat Strings and save it to the variable concatoutput
 	fmt.Println(concatoutput)                                            //Print the output
 
-	fmt.Println("Reversed String: ", Reversedstr(checkstr))
-	fmt.Println("Palindrome: ", Palindrome(checkstr))
+	fmt.Println("Reversed String: ", Reversedstr(checkstr)) //Reversedstr
+	fmt.Println("Palindrome: ", Palindrome(checkstr))       //Palindrome
 
 	fmt.Println("Replacing the Characters from String:", ReplaceWord(checkstr, "t", "AA"))
 
-	fmt.Println("ToCamelCase : ", ToCamelCase(checkstr))
+	fmt.Println("ToCamelCase: ", ToCamelCase(checkstr)) //ToCamelCase
 }
