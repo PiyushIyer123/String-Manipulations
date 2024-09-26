@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	checkstr := "Welcome to Group A's Week 4 Project!"
