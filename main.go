@@ -19,5 +19,5 @@ func main() {
 	fmt.Println("Reversed String: ", Reversedstr(checkstr))
 	fmt.Println("Palindrome: ", Palindrome(checkstr))
 
-	fmt.Println("Replacing the Word from String:", ReplaceWord(checkstr, "t", "AA"))
+	fmt.Println("Replacing the Characters from String:", ReplaceWord(checkstr, "t", "AA"))
 }
