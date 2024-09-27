@@ -20,6 +20,7 @@ func main() {
 
 	fmt.Println("Reversed String: ", Reversedstr(checkstr)) //Reversedstr
 	fmt.Println("Palindrome: ", Palindrome(checkstr))       //Palindrome
+	fmt.Println("StringLength: ", StringLength(checkstr))   //Stringlength
 
 	fmt.Println("Replacing the Characters from String:", ReplaceWord(checkstr, "t", "AA"))
 
