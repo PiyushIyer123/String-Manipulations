@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	checkstr := "Welcome to Group A's Week 4 Project!"
-	fmt.Println("Welcome to Group A's Week 4 Project!")
+	checkstr := "Welcome to this Project!"
+	fmt.Println("Welcome to this Project!")
 	fmt.Println(Reversedstr(checkstr))
 
 	// CONCATENATE STRINGS - By Ponni Sajeevan
